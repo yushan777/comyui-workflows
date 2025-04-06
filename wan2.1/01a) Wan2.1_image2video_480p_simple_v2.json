@@ -305,30 +305,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 79,
-      "type": "Note",
-      "pos": [
-        -140,
-        690
-      ],
-      "size": [
-        430,
-        160
-      ],
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Video Frame Length",
-      "properties": {},
-      "widgets_values": [
-        "Video frames increment/decrement in steps of 4 (+1 initial frame).\n\nSo it goes up in steps of: (1 + 4n)  \ni.e 1, 5, 9, 13.... up to max of 81.\n\nIf you generate a 33 frame clip and interpolate by a factor of 2,\nthen you will end up with a 35 frame clip: 1 + (32 * 2)"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 37,
       "type": "UNETLoader",
       "pos": [
@@ -340,7 +316,7 @@
         100
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -429,7 +405,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -464,7 +440,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -500,7 +476,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -535,7 +511,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -570,7 +546,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -810,7 +786,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -886,7 +862,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1104,7 +1080,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1313,7 +1289,7 @@
         360
       ],
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1435,7 +1411,7 @@
         98
       ],
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1475,7 +1451,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1553,7 +1529,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 20,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1699,30 +1675,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 107,
-      "type": "MarkdownNote",
-      "pos": [
-        -750,
-        -160
-      ],
-      "size": [
-        310,
-        170
-      ],
-      "flags": {},
-      "order": 21,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Custom Nodes Used",
-      "properties": {},
-      "widgets_values": [
-        "[rgthree-comfy](https://github.com/rgthree/rgthree-comfy)\n\n[KJnodes](https://github.com/kijai/ComfyUI-KJNodes)\n\n[mxToolkit](https://github.com/Smirnov75/ComfyUI-mxToolkit)\n\n[VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite)\n\n[ComfyUI-Frame-Interpolation](https://github.com/Fannovel16/ComfyUI-Frame-Interpolation)\n\n[ComfyUI-TeaCache](https://github.com/welltop-cn/ComfyUI-TeaCache)"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 72,
       "type": "mxSlider2D",
       "pos": [
@@ -1736,7 +1688,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1798,7 +1750,7 @@
         130
       ],
       "flags": {},
-      "order": 23,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1882,7 +1834,7 @@
         100
       ],
       "flags": {},
-      "order": 24,
+      "order": 22,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1919,7 +1871,7 @@
         330
       ],
       "flags": {},
-      "order": 25,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1945,7 +1897,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 26,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1961,6 +1913,54 @@
       },
       "color": "#fff0",
       "bgcolor": "#fff0"
+    },
+    {
+      "id": 107,
+      "type": "MarkdownNote",
+      "pos": [
+        -750,
+        -160
+      ],
+      "size": [
+        310,
+        170
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Custom Nodes Used",
+      "properties": {},
+      "widgets_values": [
+        "[rgthree-comfy](https://github.com/rgthree/rgthree-comfy)\n\n[KJnodes](https://github.com/kijai/ComfyUI-KJNodes)\n\n[mxToolkit](https://github.com/Smirnov75/ComfyUI-mxToolkit)\n\n[VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite)\n\n[ComfyUI-Frame-Interpolation](https://github.com/Fannovel16/ComfyUI-Frame-Interpolation)\n\n[ComfyUI-TeaCache](https://github.com/welltop-cn/ComfyUI-TeaCache)"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 79,
+      "type": "Note",
+      "pos": [
+        -140,
+        690
+      ],
+      "size": [
+        430,
+        160
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Video Frame Length",
+      "properties": {},
+      "widgets_values": [
+        "Video frames increment/decrement in steps of 4 (+1 initial frame).\n\nSo it goes up in steps of: (1 + 4n)  \ni.e 1, 5, 9, 13.... up to max of 81.\n\nIf you generate a 33 frame clip and interpolate by a factor of 2,\nthen you will end up with a 65 frame clip: 1 + (32 * 2)"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
     }
   ],
   "links": [
@@ -2310,10 +2310,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7400249944258174,
+      "scale": 0.8140274938683993,
       "offset": [
-        1053.8425307064078,
-        301.3493373142289
+        895.509282796246,
+        209.52364066700173
       ]
     },
     "VHS_latentpreview": false,
